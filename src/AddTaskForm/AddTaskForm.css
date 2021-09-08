@@ -1,0 +1,12 @@
+.taskForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 15px 0 25px;
+    
+}
+
+input {
+    width: 60%;
+}

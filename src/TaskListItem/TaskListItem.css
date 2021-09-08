@@ -1,0 +1,32 @@
+.complete {
+    text-decoration: line-through;
+    background-color: rgb(190, 113, 113);
+}
+.complete:hover {
+    animation-name: colorSwitch;
+    animation-duration: 1s;
+}
+
+
+li {
+    margin-top: 15px;
+    background-color: rgb(159, 209, 159);
+    border-radius: 15px;
+}
+
+li:hover {
+    animation-name: colorSwitch2;
+    animation-duration: 1s;
+}
+button {
+    align-content: right;
+}
+
+
+@keyframes colorSwitch {
+    100%   {background-color:red; }
+  }
+
+ @keyframes colorSwitch2 {
+    100%   {background-color:green; }
+  }
