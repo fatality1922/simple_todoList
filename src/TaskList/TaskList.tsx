@@ -2,7 +2,7 @@ import { List, Typography } from '@material-ui/core';
 import React from 'react'
 import { AddTaskForm } from '../AddTaskForm/AddTaskForm';
 import { TaskListItem } from '../TaskListItem/TaskListItem';
-import './TaskList.css';
+import './TaskList.scss';
 
 
 interface TaskListItemProps {
@@ -24,7 +24,6 @@ export const TaskList: React.FC<TaskListItemProps> = ({ tasks, switchTask, handl
             {tasks.map(task => {
                 if (task.complete === true) return <TaskListItem key={task.id} task={task} switchTask={switchTask} handleDelete={handleDelete} addTask={addTask} />
             })}
-
         </List>
     );
 }

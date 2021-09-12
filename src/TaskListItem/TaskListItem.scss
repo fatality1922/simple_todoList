@@ -6,7 +6,10 @@
     animation-name: colorSwitch;
     animation-duration: 1s;
 }
-
+.complete:hover p {
+    animation-name: colorSwitch;
+    animation-duration: 1s;
+}
 
 li {
     margin-top: 15px;

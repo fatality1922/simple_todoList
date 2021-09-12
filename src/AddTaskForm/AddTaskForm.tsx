@@ -2,7 +2,7 @@ import React, { ChangeEvent, FormEvent, useState } from 'react'
 
 import Button from '@material-ui/core/Button';
 import { Add } from '@material-ui/icons';
-import './AddTaskForm.css';
+import './AddTaskForm.scss';
 
 interface AddTaskFormProps {
     addTask: AddTask; // type added in types.d

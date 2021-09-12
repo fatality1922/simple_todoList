@@ -1,6 +1,6 @@
 import { Button, Checkbox, Grid, ListItem, ListItemIcon } from '@material-ui/core';
 import React from 'react'
-import './TaskListItem.css';
+import './TaskListItem.scss';
 import DeleteIcon from '@material-ui/icons/Delete';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
